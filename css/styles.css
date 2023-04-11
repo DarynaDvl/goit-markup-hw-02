@@ -1,3 +1,6 @@
+:root {
+}
+
 .list {
   list-style: none;
 }
@@ -8,7 +11,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #2e2f42;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 /* ================= COMPONENTS =================*/
@@ -28,6 +32,7 @@ body {
 }
 
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -57,6 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -64,8 +70,10 @@ body {
   color: #404bbf;
 }
 
-.contact-item {
+.contacts {
   font-style: normal;
+}
+.contact-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -100,6 +108,7 @@ h1 {
 }
 
 .modal-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -142,6 +151,10 @@ h1 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 
 .employee-name {
