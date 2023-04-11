@@ -147,13 +147,13 @@ h1 {
 }
 
 .section-title {
+  color: var(--text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--text-color);
 }
 
 .list-item {
@@ -166,6 +166,7 @@ h1 {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .employee-position {
