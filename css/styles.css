@@ -81,15 +81,11 @@ body {
   color: #434455;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-item:hover,
+.contact-item:focus {
   color: #404bbf;
 }
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-  color: #404bbf;
-}
 /* ================= /HEADER =================*/
 
 /* ================= HERO =================*/
@@ -181,12 +177,12 @@ h1 {
 
 /* ================= PORTFOLIO =================*/
 
-.portfolio-subtitle {
+/* .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
+} */
 
 .portfolio-par {
   font-size: 16px;
